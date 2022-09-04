@@ -24,6 +24,12 @@ header {
     padding: 40px 100px;
     z-index: 1;
 }
+header.sticky
+{
+    padding: 5px 100px;
+    background: #fff;
+
+} 
 
 header .logo {
     position: relative;
@@ -49,7 +55,7 @@ header ul li a
     position: relative;
     margin: 0 15px;
     text-decoration: none;
-    color: #fff;
+    color: rgb(177, 72, 6);
     letter-spacing: 2px;
     font-weight: 500px;
     transition: 0.6s;
@@ -62,4 +68,9 @@ header ul li a
     height: 100vh;
     background:url(wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
+}
+header.sticky .logo,
+header.sticky ul li a {
+    color: black;
+
 }
